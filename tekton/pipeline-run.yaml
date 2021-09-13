@@ -3,6 +3,7 @@ kind: PipelineRun
 metadata:
   generateName: buildah-app-pipeline-run-
 spec:
+  serviceAccountName: build-bot
   pipelineRef:
     name: nodejs-pipeline
   params:
