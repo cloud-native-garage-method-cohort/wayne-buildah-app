@@ -1,5 +1,5 @@
 # Use node node Docker image from ibmgaragecloud
-FROM https://quay.io/ibmgaragecloud/node
+FROM quay.io/ibmgaragecloud/node
 
 # From the documentation, "The WORKDIR instruction sets the working directory for any
 # RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile"

@@ -9,7 +9,7 @@ spec:
     - name: source-repo
       value: https://github.com/cloud-native-garage-method-cohort/wayne-buildah-app
     - name: image-repo
-      value: https://quay.io/waynecabanto/buildah-app-assignment
+      value: quay.io/waynecabanto/buildah-app-assignment
     - name: app-name
       value: wayne-cabanto-buildah-app
   workspaces:
